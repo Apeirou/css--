@@ -1,0 +1,47 @@
+body{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.text {
+    width:  48px;
+    height: 48px;
+    padding: 3px 3px 3px 3px;
+    border:1px dashed rgb(255, 255, 255);
+    font-size:48px;
+    font-family: serif;
+    text-align: center;
+    outline: none;
+    color: rgb(76, 117, 151);
+}
+
+.gr-top {
+    border-top: 2px solid black;
+}
+
+.gr-right {
+    border-right: 2px solid black;
+}
+
+.gr-bottom {
+    border-bottom: 2px solid black;
+}
+
+tr td:first-child {
+    border-left: 2px solid black;
+}
+
+.check {
+    padding: 3px 8px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+}
